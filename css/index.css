@@ -1,0 +1,138 @@
+*{
+  margin:0;
+  padding:0;
+}
+.body{
+  margin:auto;
+  max-width:1000px;
+  min-width: 400px;
+  font-family: verdana;
+  background:#e9e1b9;
+ 
+}
+
+h1{
+    color:orange;
+    font-family:cursive;
+    font-size: 50px;
+    text-align:center;
+  }
+.box-titulo{
+  background-color: maroon;
+  margin-left: 10%;
+  padding: 1%;
+  margin:40px;
+  padding-top: 20px;
+}
+
+  a {
+    background-color:orange;
+    color:red;
+    font-size:15px;
+    font-family: sans-serif;
+  }
+  .imagem{
+    width: 70%;
+    height: 20%;
+  }
+
+  .beneficios{
+    padding: 20px;
+}
+ul.links{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 30%;
+}
+.imagem{
+    height: 5%;
+    width: 29%;
+}
+h2.titulo_curso{
+font-size: 120%;
+}
+.centralizar1{
+  margin-left: 56%;
+
+}
+.centralizar{
+  margin-left: 45%;;
+}
+li {
+  list-style-type: none;
+}
+
+.centralizar3{
+text-align: center;
+  margin-left: 20%;
+  font-size: clamp(1em,1em,+1vw,1.5em);
+}
+.centralizar4{
+  margin-left: 0%;
+}
+
+  .passos{
+    text-align:justify;
+    font-size:17px
+  }
+  .texto{
+    text-align:justify;
+    font-size: 17px;
+  }
+ 
+  #titulo{
+  font-family:monospace;
+  color:#380861;
+  margin-left:10%;
+  font-size:30px
+  }
+ 
+  
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  .btn {
+    border-radius: 3em;
+    border-color: #1abc9c;
+    color: #fff;
+    background-image: -webkit-linear-gradient(left, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+    background-image: linear-gradient(to right, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%, #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%, #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%, rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%, rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%, #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%, rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%, rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%, #1abc9c 95%, #1abc9c 100%);
+    background-position: 0 0;
+    background-size: 100%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .btn:hover {
+    background-position: 100px;
+  }
+  
+#exampleFormControlTextarea1{
+resize: none;
+}
+
+.titulo_comentario{
+  font-size: 150%;
+  text-align: center;
+}
+.imagem-comentario{
+  display: inline-block;
+  visibility: top;
+  margin: 4px;
+  padding: 1px;
+}
+
+
+.informacoes{
+  background-color: #ffffff;
+  margin: 8%;
+  padding: 1%;
+  margin-top: -5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.comentarios{
+  background-color: rgb(255, 255, 255);
+
+}
